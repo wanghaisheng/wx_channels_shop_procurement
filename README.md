@@ -2,9 +2,9 @@
 看着一起干活的小妹姐补货统计太花时间了，于是花了一点点时间写出了这个程序。
 这是一个用于统计视频号订单的Go语言程序。它可以读取视频号订单导出的Excel文件,把订单中相同的商品SKU统计分组并生成统计结果。
 ## 运行示例
-1.拖动导出的订单excel到exe文件上就能得到excel同名文件的txt结果文件。
-2.exe文件请到releases下载default.zip。
-3.可能会被杀毒杀掉。- - 把exe文件添加到排除区。
+1. 拖动导出的订单excel到exe文件上就能得到excel同名文件的txt结果文件。
+2. exe文件请到releases下载default.zip。
+3. 可能会被杀毒杀掉。- - 把exe文件添加到排除区。
 
 <img width="1189" alt="image" src="https://github.com/ruan11223344/wx_channels_shop_procurement/assets/5679023/37a66cfa-5cea-4be8-8b86-8e3ab5ad2663">
 
