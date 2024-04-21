@@ -1,8 +1,16 @@
 # 视频号订单补货统计工具
+看着一起干活的小妹姐补货统计太花时间了，于是花了一点点时间写出了这个程序。
+这是一个用于统计视频号订单的Go语言程序。它可以读取视频号订单导出的Excel文件,把订单中相同的商品SKU统计分组并生成统计结果。
+## 运行示例
+1.拖动导出的订单excel到exe文件上就能得到excel同名文件的txt结果文件。
+2.exe文件请到releases下载default.zip。
+3.可能会被杀毒杀掉。- - 把exe文件添加到排除区。
 
-这是一个用于统计视频号订单的Go语言程序。它可以读取视频号订单导出的Excel文件,并生成统计结果。
+<img width="1189" alt="image" src="https://github.com/ruan11223344/wx_channels_shop_procurement/assets/5679023/37a66cfa-5cea-4be8-8b86-8e3ab5ad2663">
 
+<img width="1186" alt="image" src="https://github.com/ruan11223344/wx_channels_shop_procurement/assets/5679023/a7652ce8-7f4e-46bc-a28d-4c49f32f43f7">
 ## 特点
+
 
 - 自动统计商品数量:程序会根据商品名称和规格自动统计每个商品的数量。
 - 处理备注订单:对于包含买家备注或商家备注的订单,程序会单独列出,不计入统计结果。
